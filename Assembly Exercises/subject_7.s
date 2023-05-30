@@ -1,3 +1,5 @@
+# GIVEN A REAL NUMBER, COUNT HOW MANY 1'S AND 0'S HAS IN EACH BINARY FORM
+
 .text
     .globl main
 main:
