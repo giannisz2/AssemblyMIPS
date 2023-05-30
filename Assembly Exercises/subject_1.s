@@ -1,8 +1,8 @@
 # GIVEN AN INTEGER NUMBER, PRINT THE NUMBER IN EXPONENTIAL FORM USING ONLY POWERS OF 10, EXAMPLE: 1267 = 1*10^3 + 2*10^2 + 6*10^1 + 7*10^0
 
 .text
-    .globl __start
-__start:
+    .globl main
+main:
             # read int
             li $v0, 5
             syscall
