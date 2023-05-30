@@ -1,9 +1,8 @@
-.text
-    .globl __start
-__start:
+# CONVERSION OF A STRING IN BINARY 
 
-# Ο ΚΩΔΙΚΑΣ ΔΟΥΛΕΥΕΙ ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΔΕΝ ΥΠΑΡΧΕΙ Ο ΑΡΙΘΜΟΣ 0 ΜΕΣΑ ΣΤΟ STRING
-# Ο ΚΩΔΙΚΑΣ ΕΙΝΑΙ ΟΥΣΙΑΣΤΙΚΑ Η ΚΛΑΣΣΙΚΗ ΜΕΤΑΤΡΟΠΗ ΔΕΚΑΔΙΚΟΥ ΣΕ ΔΥΑΔΙΚΟ ΟΠΩΣ ΚΑΝΑΜΕ ΣΤΝΝ ΛΟΓΙΚΗ ΣΧΕΔΙΑΣΗ
+.text
+    .globl main
+main:
 
             li $t0, 0 # counter of string array
             li $s0, 128 # 2^7
