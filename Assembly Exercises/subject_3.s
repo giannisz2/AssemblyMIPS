@@ -1,6 +1,8 @@
+# CHECK IF A INPUT NUMBER IS INTEGER OR NOT
+
 .text
-    .globl __start
-__start:
+    .globl main
+main:
             # read and move number
             li $v0, 6
             syscall
