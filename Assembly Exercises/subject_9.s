@@ -1,3 +1,5 @@
+# GIVEN A FLOAT NUMBER, PRINT IT'S SCIENTIFIC NOTATION
+
 .text
     .globl main
 main:
